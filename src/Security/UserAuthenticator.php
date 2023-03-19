@@ -48,7 +48,7 @@ class UserAuthenticator extends AbstractLoginFormAuthenticator
             return new RedirectResponse($targetPath);
         }
 
-        $request->getSession()->getFlashBag()->add('success', 'Vous avez été enregistré avec succès, vous êtes maintenant connecté !');
+
         return new RedirectResponse('/test');
 
         // For example:
