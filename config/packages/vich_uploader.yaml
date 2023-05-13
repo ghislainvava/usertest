@@ -1,4 +1,4 @@
-   vich_uploader:
+vich_uploader:
        db_driver: orm # other options are mongodb, propel, phpcr
        mappings:
            product_image:
